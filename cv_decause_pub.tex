@@ -1,0 +1,200 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{enumitem}
+\setlist[itemize]{nosep,label=-}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font.
+\setlength{\textwidth}{5.1in} % set width of text portion
+\newcommand{\centered}{\moveleft.5\hoffset\centerline}
+\newcommand{\event}[2]{{\it #1}\hfill #2\\}
+\newcommand{\award}[2]{{\it #1}\hfill #2\\}
+\newcommand{\publication}[3]{{\it #1}#2\hfill #3\\}
+\newcommand{\wherewhen}[2]{{\sl #1}\hfill #2}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \centered{\large\bf Remy DeCausemaker}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \centered{http://github.com/decause}
+ \centered{remyd@civx.us}
+ \centered{@remy\_d}
+\begin{resume}
+
+    \section{COMMUNITY ORGANIZING}
+    \event{Rochester Mini Maker Faire}{Lightning Talk MC 2014}
+    \event{AT\&T Rochester Civic App Challenge}{Lead Organizer 2014}
+    \event{National Day of Civic Hacking, Rochester}{Organizer 2013-2014}
+    \event{Random Hacks of Kindness, Rochester}{Lead Organizer 2012-2014}
+    \event{PyCon EDU Summit}{Volunteer Coordinator 2012-2014}
+    \event{Rochester Election Night Hackathon}{Lead Organizer 2010-2014}
+    \event{Software Freedom Day ROC}{Lead Organizer 2010-2014}
+    \event{Google Summer of Code, SugarLabs}{Mentor 2013}
+    \event{NASA SpaceAppsChallenge, Rochester}{Organizer 2013}
+    \event{CapitolCamp Hackathon}{Co-Organizer 2012}
+    \event{Startup Weekend Rochester}{Co-Organizer 2012}
+    \event{STEM Video Game Challenge Hackathon}{Lead Organizer 2011-2012}
+    \event{American Greetings Live, Laugh, Love Hackathon}{Lead Organizer 2012}
+    \event{Hacks/HackersROC Meetup Chapter}{Co-Organizer 2012}
+    \event{Professor's Open Source Summer Experience (POSSE)}{Instructor 2010}
+    \event{Rochester Python Meetup}{Co-Organizer 2010}
+    \event{Opensource.com}{Author/Community Moderator 2010}
+    \event{CapitolCamp Developer Summit}{Co-Organizer 2010}
+    \event{One Laptop Per Child Boston Hackathon}{Lead Organizer 2010}
+    \event{Professor's Open Source Summer Experience (POSSE)}{Teaching Assistant 2010}
+    \event{RITPedia Wikithon}{Co-Organizer 2010}
+    \event{CrisisCampROC: Hackathon for Haiti}{Co-Organizer 2010}
+    \event{Great American Hackathon, Rochester}{Lead Organizer 2010}
+    \event{Software Freedom Day NYC}{Lead Organizer 2008}
+
+
+\section{AWARDS \& HONORS}
+    \event{SIGCSE, Steal This Courseware}{Workshop Lead 2015}
+    \event{EvernoteAPI Prize, HackUpstate}{Hackathon Winner 2014}
+    \event{Buffalo Civic App Symposium}{Speaker \& Panelist 2014}
+    \event{O'Reily OSCON, Bridging Open Source and Higher Ed}{Session Lead 2014}
+    \event{PyCon EDU Summit, Hacking the Ivory Tower}{Speaker 2014}
+    \event{LibrePlanet, Leveraging Free Software in the Classroom}{Speaker 2014}
+    \event{ACM SIGCSE, Adventures in Hackademia}{Poster Presenter 2014}
+    \event{Python Conference North America}{Poster Presenter 2010-2014}
+    \event{RIT Center for Multidisciplinary Studies}{Commencement Speaker 2013}
+    \event{Google Summer of Code Mentor Summit}{Speaker 2013}
+    \event{LibrePlanet, Free Software and Democratic Participation}{Panelist 2013}
+    \event{TEDxBuffalo, Open Data, Open Gov, and Open Source}{TED Talk 2011}
+    \event{OSS Research Summit, Georgia Tech}{North-East Delegate 2011}
+    \event{WeLiveNY Summit, Government 2.0 Session}{Panelist 2011}
+    \event{RIT Social Media \& Communications Symposium}{Open Data Panelist 2011}
+    \event{One Laptop Per Child Community Summit}{Regional Delegate \& Panelist 2010}
+    \event{Personal Democracy Forum}{Google Fellowship 2010}
+    \event{Wired.com: Top 3 Best Government Sunshine Apps}{Reader's Choice Award 2009}
+
+\pagebreak
+
+\section{PRESS \& PUBLICATIONS}
+    \publication{If you write code, this is your golden age}{}{Nov 2014}
+    \publication{Head of Open Source at Facebook opens up}{}{Oct 2014}
+    \publication{Code.org on reaching the next 100 million computer scientists}{}{Apr 2014}
+    \publication{RIT launches nation's first minor in FOSS and free culture (contrib)}{}{Mar 2014}
+    \publication{Adventures in Hackademia: Leveraging FOSS in the Classroom}{}{Mar 2014}
+    \publication{Hacking computer science education at Khan Academy}{}{Feb 2014}
+    \publication{Google Summer of Code Mentor Summit,}{Google Open Source Blog}{Dec 2014}
+    \publication{Open gaming platform Ouya matches funds for game developers}{}{Nov 2013}
+    \publication{`Sky Time' selected for White House Champions of Change (contrib)}{}{July 2013}
+    \publication{RIT STEM Video Game Callenge}{Joan Ganz Cooney Center}{Jan 2012}
+    \publication{Todd Park: Rocket fuel for innovation}{}{Nov 2011}
+    \publication{Live from CapitolCamp}{}{Oct 2011}
+    \publication{OpenCourseWare All Grown Up: Hal Abelson}{}{Sept 2011}
+    \publication{Bridging the Boxes: Hacker Matchmaking in Upstate New York}{}{Aug 2011}
+    \publication{Games for life: Girl Scouts, games, and the open source way}{}{May 2011}
+    \publication{Community-building and diversity take-aways from PyCon 2011}{}{Mar 2011}
+    \publication{The Course-to-Co-op Lifecycle: OpenInnovation@RIT}{}{Mar 2010}
+
+
+\section{EXPERIENCE}
+    \wherewhen{Free/Open Source Software (FOSS) Research Coordinator}{May 2014}\\
+    \wherewhen{RIT Center for Media, Arts, Games, Interaction, and Creativity (MAGIC)}{}
+    \begin{itemize}
+        \item Coach, train, and mentor, senior faculty and staff about FOSS.
+    \end{itemize}
+
+    \wherewhen{Assistant Director}{May 2014}\\
+    \wherewhen{RIT Lab for Technological Literacy}{July 2013}
+    \begin{itemize}
+        \item Oversee operations and opportunities for lab at large
+    \end{itemize}
+
+    \wherewhen{Adjunct Professor}{Sept 2013}\\
+    \wherewhen{RIT Department of Interactive Games \& Media}{}
+    \begin{itemize}
+        \item Teach projects-based courses building educational games and tools.
+        \item OLPC, Raspberry Pi, Arduino, and other Open platforms.
+        \item Deploy original Open courseware and curriculum on OpenShift cloud.
+    \end{itemize}
+
+    \wherewhen{Research Associate}{Sept 2013}\\
+    \wherewhen{RIT Lab for Technological Literacy}{June 2011}
+    \begin{itemize}
+        \item Campaign Manager of http://foss.rit.edu
+        \item Organize at least three hackathons per semester.
+        \item Advocate and represent at conferences, symposia, and community events.
+        \item Connect staff, students, and faculty of RIT with the FOSS Community.
+    \end{itemize}
+
+    \wherewhen{Hacktivist \& Storyteller}{June 2012}\\
+    \wherewhen{RIT Center for Student Innovation}{Dec 2009}
+    \begin{itemize}
+        \item Organize at least two hackathons per quarter.
+        \item Architect and Implement high-impact low-cost research and campaigns.
+        \item Coordinate coverage of people, projects, and events with university and public press.
+    \end{itemize}
+
+    \wherewhen{Co-operative Educational Coordinator}{Aug 2010}\\
+    \wherewhen{PEN International/National Technical Institute for the Deaf}{March 2010}
+    \begin{itemize}
+        \item Team Awarded 2011 Digital Rochester Student Achievement Award.
+        \item Supervised student development team of ASL video chat prototype on the XO Laptop.
+    \end{itemize}
+
+    \pagebreak
+
+    \wherewhen{Co-Founder, CIVX.us}{Apr 2009}\\
+    \wherewhen{CIVX inc., New York, NY}
+    \begin{itemize}
+        \item Coordinated civic hacking and partnerships for http://civx.us
+    \end{itemize}
+
+    \wherewhen{Campaign Volunteer, SFLC}{June 2009}\\
+    \wherewhen{Software Freedom Law Center, New York, NY}{Sept 2008}
+    \begin{itemize}
+        \item Organized Software Freedom Day NYC '08
+        \item Delegate to FreeCulture '09 Conference in Berkeley, CA
+        \item Co-organized ``Question Copyright'' panel at Columbia University.
+        \item Worked under President managing Free Software and Free Culture campaigns in the NYC Metropolitan Region.
+    \end{itemize}
+
+    \wherewhen{Community Outreach Director, NYPIRG}{May-Sept}\\
+    \wherewhen{New York Public Interest Research Group, Albany, NY}{2007, 2008}
+    \begin{itemize}
+        \item Highest grossing upstate office '07 \& '08
+        \item Two seasons interviewing, hiring, training, payrolling, field managing, and directing a campaign staff of 25.
+    \end{itemize}
+
+    \wherewhen{Legislative Associate}{May 2007}\\
+    \wherewhen{NYPIRG Legislative Office, Albany, NY}{Jan 2007}
+    \begin{itemize}
+        \item 2007 Policy Areas: Campaign Finance, Judicial Selection, Voting.
+        \item Direct lobbying of Senate, Assembly, and Governor of NYS.
+        \item Press and media relations, coalition building/mobilization.
+        \item Released ``Fat Cat Factor'' and ``CPI Adjusted NY Campaign Contribution Limits'', both carried over the AP Wire.
+    \end{itemize}
+
+\section{EDUCATION}
+    \textsl{M.S.,} Professional Studies \hfill May 2013\\
+    Rochester Institute of Technology, Rochester, NY\\
+    Concentrations: Communications \& Media Technology, Public Policy\\
+    \textsl{Commencement Speaker \& Graduate Delegate}
+
+    \textsl{Certification,} Organizational Change \& Leadership \hfill June 2008\\
+    Rochester Institute of Technology, Rochester, NY\\
+    Developed \& delivered staff retention seminar for directors statewide.\\
+    Course sequences: organizational behavior, empowered leadership, \\
+    corporate culture, teams \& team development, and learning organizations.
+
+    \textsl{B.S.,} Applied Arts \& Sciences \hfill June 2008\\
+    Rochester Institute of Technology, Rochester, NY\\
+    Concentrations: Business, Writing Studies, Political Science,\\
+                    Organizational Change \& Leadership
+
+    \textsl{A.A.S.,} Business \hfill June 2008\\
+    Rochester Institute of Technology, Rochester, NY
+
+\section{COMPUTER \\ SKILLS}
+    {\sl Languages \& Software:} Python, HTML, CSS, Javascript\\
+    {\sl Operating Systems:} Unix and Linux - Fedora, RHEL, Gentoo, FreeBSD\\
+    {\sl Content Management:} Wordpress, Drupal, Flask, Tumblr, OpenShift\\
+    {\sl Design/Front-end:} Bootstrap, Mako, Inkscape, GIMP, LibreOffice Suite\\
+\end{resume}
+\end{document}
